@@ -20429,12 +20429,15 @@ p.inner-page-para {
   color: var(--primary-color);
   font-weight: 600;
   text-transform: capitalize;
+  float: right;
+  padding-bottom: 100px;
 }
 
 .w3l-testimonials .name p {
   font-size: 15px;
   opacity: 0.8;
 }
+
 
 @media (max-width: 1199px) {
 
@@ -20529,6 +20532,7 @@ p.inner-page-para {
 .owl-carousel .owl-dot,
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-nav .owl-prev {
+  
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -20540,6 +20544,7 @@ p.inner-page-para {
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   border: none;
+  
 }
 
 .owl-carousel.owl-loading {
